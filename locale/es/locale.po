@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Edición Clásica de Usuarios/as"
+
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Devuelve al gestor/a y al administrador/a la edición directa de los usuarios/as de la revista —nombre, apellidos, correo electrónico y roles— como en las versiones anteriores de OJS, en una pestaña adicional de Usuarios/as y Roles. El gestor de invitaciones de OJS 3.5 sigue disponible en paralelo."
+
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Editar usuarios/as (clásico)"
+
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Edición directa de los usuarios/as ya registrados en esta revista: nombre, apellidos, correo electrónico, roles, además de deshabilitar, eliminar, enviar correo y fusionar cuentas. Para incorporar a alguien nuevo o pedir la confirmación de la persona, use el gestor de invitaciones en la pestaña Usuarios/as."
+
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Rol"
+
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Mostrar en la página Equipo Editorial"
+
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Marque los roles de esta persona en la revista. En la columna de la derecha, elija si debe aparecer en la página pública Equipo Editorial con ese rol — de forma predeterminada, no aparece."
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Este rol no aparece en la página Equipo Editorial. Eso se define rol por rol en la pestaña Roles; los revisores/as se listan por las revisiones completadas, no por el rol."

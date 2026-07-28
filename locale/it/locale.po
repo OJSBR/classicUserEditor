@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Modifica classica degli utenti"
+
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Restituisce a chi gestisce la rivista e all'amministrazione la modifica diretta degli utenti — nome, cognome, e-mail e ruoli — come nelle versioni precedenti di OJS, in una scheda aggiuntiva di Utenti e ruoli. Il gestore degli inviti di OJS 3.5 resta disponibile in parallelo."
+
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Modifica utenti (classica)"
+
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Modifica diretta degli utenti già registrati in questa rivista: nome, cognome, e-mail, ruoli, oltre a disabilitare, rimuovere, inviare e-mail e unire account. Per aggiungere una persona nuova o chiederne la conferma, usa il gestore degli inviti nella scheda Utenti."
+
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Ruolo"
+
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Mostrare nella pagina Comitato editoriale"
+
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Seleziona i ruoli di questa persona nella rivista. Nella colonna a destra scegli se deve comparire nella pagina pubblica Comitato editoriale con quel ruolo — per impostazione predefinita non compare."
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Questo ruolo non compare nella pagina Comitato editoriale. Si imposta ruolo per ruolo nella scheda Ruoli; i revisori sono elencati in base alle revisioni concluse, non al ruolo."

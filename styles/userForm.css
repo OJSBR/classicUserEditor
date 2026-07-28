@@ -1,0 +1,59 @@
+/**
+ * plugins/generic/classicUserEditor/styles/userForm.css
+ *
+ * Copyright (c) 2026 OJSBR (https://ojsbr.com)
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * Roles table of the classic user form.
+ */
+
+table.classicUserEditorRoles {
+	width: 100%;
+	margin: 1em 0 1.5em;
+	border-collapse: collapse;
+	font-size: 0.9rem;
+}
+
+table.classicUserEditorRoles caption {
+	margin-bottom: 0.75em;
+	color: #55606b;
+	font-size: 0.85rem;
+	line-height: 1.5;
+	text-align: left;
+}
+
+table.classicUserEditorRoles th,
+table.classicUserEditorRoles td {
+	padding: 0.5em 0.75em;
+	border-bottom: 1px solid #e1e5e9;
+	text-align: left;
+	vertical-align: middle;
+}
+
+table.classicUserEditorRoles thead th {
+	border-bottom: 2px solid #cdd3d9;
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+table.classicUserEditorRoles tbody tr:hover {
+	background: #f7f9fa;
+}
+
+table.classicUserEditorRoles td label {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5em;
+	margin: 0;
+	font-weight: normal;
+}
+
+table.classicUserEditorRoles .classicUserEditorRoles__masthead {
+	width: 14em;
+	text-align: center;
+	color: #6e7a85;
+}
+
+table.classicUserEditorRoles input[type="checkbox"]:disabled {
+	cursor: not-allowed;
+}

@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Classic User Editor"
+
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Gives journal managers and administrators direct editing of the journal's users again — given name, family name, email and roles — as in earlier OJS versions, in an extra tab of Users & Roles. The OJS 3.5 invitation manager remains available alongside it."
+
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Edit users (classic)"
+
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Direct editing of the users already registered in this journal: given name, family name, email, roles, as well as disabling, removing, emailing and merging accounts. To add someone new or ask the person to confirm, use the invitation manager in the Users tab."
+
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Role"
+
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Show on the Editorial Team page"
+
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Select this person's roles in the journal. In the column on the right, choose whether they should appear on the public Editorial Team page in that role — by default they do not."
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "This role does not appear on the Editorial Team page. That is set per role in the Roles tab; reviewers are listed by their completed reviews, not by their role."

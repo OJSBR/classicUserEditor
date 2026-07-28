@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Édition classique des utilisateurs·rices"
+
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Rend à la direction de la revue et à l'administration la modification directe des utilisateurs·rices — prénom, nom, courriel et rôles — comme dans les versions précédentes d'OJS, dans un onglet supplémentaire d'Utilisateurs·rices et rôles. Le gestionnaire d'invitations d'OJS 3.5 reste disponible en parallèle."
+
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Modifier les utilisateurs·rices (classique)"
+
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Modification directe des utilisateurs·rices déjà inscrits dans cette revue : prénom, nom, courriel, rôles, ainsi que la désactivation, la suppression, l'envoi de courriel et la fusion de comptes. Pour ajouter une nouvelle personne ou lui demander confirmation, utilisez le gestionnaire d'invitations dans l'onglet Utilisateurs·rices."
+
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Rôle"
+
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Afficher sur la page Équipe éditoriale"
+
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Cochez les rôles de cette personne dans la revue. Dans la colonne de droite, indiquez si elle doit apparaître sur la page publique Équipe éditoriale pour ce rôle — par défaut, elle n'apparaît pas."
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Ce rôle n'apparaît pas sur la page Équipe éditoriale. Cela se définit rôle par rôle dans l'onglet Rôles ; les évaluateurs·rices sont listés d'après leurs évaluations terminées, et non d'après leur rôle."

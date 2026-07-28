@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Klassische Benutzerbearbeitung"
+
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Gibt Zeitschriftenverwaltung und Administration die direkte Bearbeitung der Benutzer/innen zurück — Vorname, Nachname, E-Mail und Rollen — wie in früheren OJS-Versionen, in einem zusätzlichen Reiter von Benutzer/innen & Rollen. Die Einladungsverwaltung von OJS 3.5 bleibt parallel verfügbar."
+
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Benutzer/innen bearbeiten (klassisch)"
+
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Direkte Bearbeitung der in dieser Zeitschrift bereits registrierten Benutzer/innen: Vorname, Nachname, E-Mail, Rollen sowie Deaktivieren, Entfernen, E-Mail senden und Konten zusammenführen. Um jemanden neu aufzunehmen oder eine Bestätigung anzufordern, nutzen Sie die Einladungsverwaltung im Reiter Benutzer/innen."
+
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Rolle"
+
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Auf der Seite Redaktionsteam anzeigen"
+
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Wählen Sie die Rollen dieser Person in der Zeitschrift aus. In der rechten Spalte legen Sie fest, ob sie in dieser Rolle auf der öffentlichen Seite Redaktionsteam erscheinen soll — standardmäßig erscheint sie nicht."
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Diese Rolle erscheint nicht auf der Seite Redaktionsteam. Das wird pro Rolle im Reiter Rollen festgelegt; Gutachter/innen werden nach abgeschlossenen Gutachten gelistet, nicht nach ihrer Rolle."
