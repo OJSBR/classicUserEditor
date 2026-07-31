@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/badge/version-1.0.0.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/classicUserEditor/releases/download/1.0.0.0/classicUserEditor-1.0.0.0.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/classicUserEditor/releases/download/1.0.0.1/classicUserEditor-1.0.0.1.tar.gz) — or browse all [Releases](../../releases).
 
 A generic plugin for **Open Journal Systems (OJS)** that gives journal managers and
 administrators **direct editing of users** again — given name, family name, email and roles —

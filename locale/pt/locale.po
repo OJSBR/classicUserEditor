@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+
+
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Edição Clássica de Utilizadores"
+
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Devolve ao gestor e ao administrador a edição direta dos utilizadores da revista — nome, apelido, e-mail e papéis — tal como nas versões anteriores do OJS, num separador adicional de Utilizadores e Papéis. O gestor de convites do OJS 3.5 continua disponível em paralelo."
+
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Editar utilizadores (clássico)"
+
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Edição direta dos utilizadores já registados nesta revista: nome, apelido, e-mail, papéis, além de desativar, remover, enviar e-mail e unir contas. Para incluir alguém novo ou pedir a confirmação da pessoa, utilize o gestor de convites no separador Utilizadores."
+
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Papel"
+
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Mostrar na Equipa Editorial"
+
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Assinale os papéis desta pessoa na revista. Na coluna à direita, escolha se ela deve aparecer na página pública Equipa Editorial nesse papel — por predefinição, não aparece."
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Este papel não aparece na página Equipa Editorial. Isto é definido papel a papel no separador Papéis; os revisores são listados pelas revisões concluídas, não pelo papel."
