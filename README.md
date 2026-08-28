@@ -1,10 +1,10 @@
 # Classic User Editor — OJS plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.5-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-1.0.0.0-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-1.0.0.2-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/classicUserEditor/releases/download/1.0.0.1/classicUserEditor-1.0.0.1.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/classicUserEditor/releases/download/1.0.0.2/classicUserEditor-1.0.0.2.tar.gz) — or browse all [Releases](../../releases).
 
 A generic plugin for **Open Journal Systems (OJS)** that gives journal managers and
 administrators **direct editing of users** again — given name, family name, email and roles —
@@ -18,7 +18,7 @@ working alongside it.
 
 | OJS version | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.0.0 |
+| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.0.2 |
 
 ## The problem
 
@@ -73,6 +73,23 @@ into the account being edited), the ignore attributes LastPass, 1Password and Da
 and `readonly` until the first click or Tab — which is what actually stops autofill when the
 modal opens. Fields stay fully editable.
 
+### Roles column on databases upgraded from OJS 3.3
+
+Core fills the *Roles* column of this grid through
+`UserUserGroup::scopeWithActiveAndActiveInFuture()`, which opens with
+`whereNotNull('date_start')`. The migration that created that column
+(`I9462_UserUserGroupsStartEndDate`) only adds it and never fills it in for the assignments that
+already existed, so on a database upgraded from OJS 3.3 practically every row has an empty
+`date_start` and the column comes out **empty for every user**.
+
+The plugin therefore serves the grid through its own `ClassicUserGridHandler`, which replaces that
+single column with a query that reads an empty `date_start` as active — the same reading core's own
+`scopeWithActive()` applies to sign-in, permissions and the Editorial Team page. Nothing else in the
+grid changes, and no core file is touched.
+
+On a fresh OJS 3.5 install the question does not arise: assignments created by 3.5 already carry a
+start date.
+
 ## Installation
 
 1. Download the release (or clone the branch).
@@ -93,8 +110,11 @@ from editing an account they have no authority over.
 ## How it works (technical)
 
 - The tab is added through the `Template::Settings::access` hook — the same mechanism the
-  `staticPages` plugin uses for Website settings — and loads the core grid with
+  `staticPages` plugin uses for Website settings — and loads the grid with
   `{load_url_in_div … inVueEl=true}`.
+- The grid is served by the plugin's own `ClassicUserGridHandler`, registered through the
+  `LoadComponentHandler` hook and subclassing core's `UserGridHandler`. Since
+  `GridHandler::addColumn()` indexes the columns by id, only the *Roles* column is replaced.
 - The roles table and the autofill blocking live in `js/userForm.js`, published for the backend
   context from a `TemplateManager::display` hook on `management/access.tpl`. The list of roles
   that may appear on the Editorial Team page is computed server-side with the same query the
@@ -130,7 +150,7 @@ OJS, **sem alterar o núcleo**. O gerenciador de convites do 3.5 continua funcio
 
 | Versão do OJS | Branch | Release do plugin |
 |---------------|--------|-------------------|
-| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.0.0 |
+| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.0.2 |
 
 ### O problema
 
@@ -186,6 +206,23 @@ em cada campo, `new-password` nos campos de senha (para o navegador não injetar
 está logado na conta editada), os atributos que LastPass, 1Password e Dashlane respeitam, e
 `readonly` até o primeiro clique ou Tab — que é o que de fato impede o preenchimento na abertura
 do modal. Os campos seguem editáveis normalmente.
+
+### Coluna Papéis em bases migradas do OJS 3.3
+
+O núcleo preenche a coluna *Papéis* desta grade com
+`UserUserGroup::scopeWithActiveAndActiveInFuture()`, que começa por
+`whereNotNull('date_start')`. A migração que criou essa coluna
+(`I9462_UserUserGroupsStartEndDate`) apenas a acrescenta e nunca a preenche para as designações que
+já existiam — então, numa base migrada do OJS 3.3, praticamente toda linha fica com `date_start`
+vazio e a coluna sai **vazia para todos os usuários**.
+
+Por isso o plugin serve a grade pelo seu próprio `ClassicUserGridHandler`, que troca só essa coluna
+por uma consulta que lê `date_start` vazio como ativo — a mesma leitura que o `scopeWithActive()` do
+núcleo aplica ao login, às permissões e à página Equipe Editorial. O resto da grade não muda, e
+nenhum arquivo do núcleo é alterado.
+
+Em instalação nova do OJS 3.5 o problema não existe: as designações criadas pelo 3.5 já nascem com
+data de início.
 
 ### Instalação
 

@@ -17,6 +17,7 @@
 namespace APP\plugins\generic\classicUserEditor;
 
 use APP\core\Application;
+use APP\plugins\generic\classicUserEditor\controllers\grid\ClassicUserGridHandler;
 use PKP\core\PKPApplication;
 use PKP\plugins\GenericPlugin;
 use PKP\plugins\Hook;
@@ -25,8 +26,12 @@ use PKP\userGroup\UserGroup;
 
 class ClassicUserEditorPlugin extends GenericPlugin
 {
-    /** Classic user grid component, still shipped with pkp-lib 3.5. */
-    public const USER_GRID_COMPONENT = 'grid.settings.user.UserGridHandler';
+    /**
+     * The grid this plugin serves: the classic user grid still shipped with
+     * pkp-lib 3.5, subclassed so that the Roles column also lists assignments
+     * inherited from OJS 3.3. See ClassicUserGridHandler.
+     */
+    public const USER_GRID_COMPONENT = 'plugins.generic.classicUserEditor.controllers.grid.ClassicUserGridHandler';
 
     /** The Settings > Users & Roles page. */
     public const ACCESS_PAGE_TEMPLATE = 'management/access.tpl';
@@ -50,6 +55,9 @@ class ClassicUserEditorPlugin extends GenericPlugin
 
         // Roles and Editorial Team in a single table, in the classic form.
         Hook::add('TemplateManager::display', $this->addAccessPageAssets(...));
+
+        // Serve the grid the tab asks for.
+        Hook::add('LoadComponentHandler', $this->setupGridHandler(...));
 
         return true;
     }
@@ -138,6 +146,25 @@ class ClassicUserEditorPlugin extends GenericPlugin
         );
 
         return Hook::CONTINUE;
+    }
+
+    /**
+     * Hook LoadComponentHandler — answers with the grid this plugin ships.
+     *
+     * @param array $args [&$component, &$op, &$componentInstance]
+     */
+    public function setupGridHandler(string $hookName, array $args): bool
+    {
+        $component = &$args[0];
+        $componentInstance = &$args[2];
+
+        if ($component !== self::USER_GRID_COMPONENT) {
+            return Hook::CONTINUE;
+        }
+
+        $componentInstance = new ClassicUserGridHandler();
+
+        return Hook::ABORT;
     }
 
     /**
