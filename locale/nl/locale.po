@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: nl\n"
+
+
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Klassieke gebruikersbewerker"
+
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Geeft tijdschriftbeheerders en administrators het rechtstreeks bewerken van de gebruikers van het tijdschrift terug — voornaam, achternaam, e-mail en rollen — zoals in eerdere OJS-versies, op een extra tabblad van Gebruikers en rollen. Het uitnodigingsbeheer van OJS 3.5 blijft daarnaast beschikbaar."
+
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Gebruikers bewerken (klassiek)"
+
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Rechtstreeks bewerken van de gebruikers die al in dit tijdschrift zijn geregistreerd: voornaam, achternaam, e-mail, rollen, en ook accounts uitschakelen, verwijderen, mailen en samenvoegen. Gebruik het uitnodigingsbeheer op het tabblad Gebruikers om iemand nieuw toe te voegen of om bevestiging te vragen."
+
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Rol"
+
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Weergeven op de pagina van het redactieteam"
+
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Kies de rollen van deze persoon in het tijdschrift. Geef in de rechterkolom aan of hij of zij met die rol op de openbare pagina van het redactieteam moet verschijnen — standaard gebeurt dat niet."
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Deze rol verschijnt niet op de pagina van het redactieteam. Dat wordt per rol ingesteld op het tabblad Rollen; beoordelaars worden vermeld op basis van hun voltooide beoordelingen, niet op basis van hun rol."

@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: bg\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Класически редактор на потребители"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Връща на мениджърите на списанието и администраторите прякото редактиране на потребителите му — собствено име, фамилия, имейл и роли — както в по-старите версии на OJS, в допълнителен раздел на „Потребители и роли“. Управлението на поканите в OJS 3.5 остава достъпно паралелно."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Редактиране на потребители (класическо)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Пряко редактиране на вече регистрираните потребители в това списание: собствено име, фамилия, имейл, роли, както и деактивиране, премахване, изпращане на имейл и сливане на профили. За да добавите нов човек или да поискате потвърждение, използвайте управлението на поканите в раздела „Потребители“."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Роля"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Показване на страницата на редакционния екип"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Изберете ролите на този човек в списанието. В колоната вдясно посочете дали да се показва на публичната страница на редакционния екип в тази роля — по подразбиране не се показва."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Тази роля не се показва на страницата на редакционния екип. Това се задава за всяка роля в раздела „Роли“; рецензентите се изброяват според завършените рецензии, а не според ролята си."

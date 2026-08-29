@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: pl\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Klasyczny edytor użytkowników"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Przywraca menedżerom czasopisma i administratorom bezpośrednią edycję użytkowników czasopisma — imię, nazwisko, e-mail i role — tak jak we wcześniejszych wersjach OJS, na dodatkowej karcie w sekcji Użytkownicy i role. Menedżer zaproszeń z OJS 3.5 pozostaje dostępny obok."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Edytuj użytkowników (klasycznie)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Bezpośrednia edycja użytkowników już zarejestrowanych w tym czasopiśmie: imię, nazwisko, e-mail, role, a także wyłączanie, usuwanie, wysyłanie wiadomości i scalanie kont. Aby dodać nową osobę lub poprosić ją o potwierdzenie, użyj menedżera zaproszeń na karcie Użytkownicy."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Rola"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Pokaż na stronie zespołu redakcyjnego"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Wybierz role tej osoby w czasopiśmie. W kolumnie po prawej wskaż, czy ma pojawiać się w tej roli na publicznej stronie zespołu redakcyjnego — domyślnie się nie pojawia."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Ta rola nie pojawia się na stronie zespołu redakcyjnego. Ustawia się to dla każdej roli na karcie Role; recenzenci są wymieniani na podstawie ukończonych recenzji, a nie roli."

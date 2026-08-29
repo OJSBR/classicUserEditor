@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: eu\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Erabiltzaileen editore klasikoa"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Aldizkariaren kudeatzaileei eta administratzaileei aldizkariko erabiltzaileak zuzenean editatzeko aukera itzultzen die —izena, abizena, helbide elektronikoa eta rolak—, aurreko OJS bertsioetan bezala, Erabiltzaileak eta rolak ataleko fitxa gehigarri batean. OJS 3.5eko gonbidapenen kudeatzailea erabilgarri jarraitzen du haren ondoan."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Editatu erabiltzaileak (klasikoa)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Aldizkari honetan dagoeneko erregistratuta dauden erabiltzaileak zuzenean editatzea: izena, abizena, helbide elektronikoa, rolak, baita kontuak desgaitzea, kentzea, mezuak bidaltzea eta batzea ere. Norbait berria gehitzeko edo berrespena eskatzeko, erabili Erabiltzaileak fitxako gonbidapenen kudeatzailea."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Rola"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Erakutsi erredakzio taldearen orrian"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Aukeratu pertsona honen rolak aldizkarian. Eskuineko zutabean, hautatu rol horrekin erredakzio taldearen orri publikoan agertu behar duen — lehenetsita ez da agertzen."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Rol hau ez da erredakzio taldearen orrian agertzen. Hori rol bakoitzeko Rolak fitxan ezartzen da; ebaluatzaileak amaitutako ebaluazioen arabera zerrendatzen dira, ez rolaren arabera."

@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ar\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "محرّر المستخدمين الكلاسيكي"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "يعيد لمديري المجلة والمسؤولين إمكانية تحرير مستخدمي المجلة مباشرةً — الاسم الشخصي واسم العائلة والبريد الإلكتروني والأدوار — كما في إصدارات OJS السابقة، في تبويب إضافي ضمن المستخدمون والأدوار. ويبقى مدير الدعوات في OJS 3.5 متاحاً إلى جانبه."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "تحرير المستخدمين (كلاسيكي)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "تحرير مباشر للمستخدمين المسجَّلين في هذه المجلة: الاسم الشخصي واسم العائلة والبريد الإلكتروني والأدوار، إضافةً إلى تعطيل الحسابات وحذفها ومراسلتها ودمجها. أما لإضافة شخص جديد أو لطلب تأكيده، فاستخدم مدير الدعوات في تبويب المستخدمين."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "الدور"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "العرض في صفحة هيئة التحرير"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "اختر أدوار هذا الشخص في المجلة. وفي العمود على اليمين، حدّد ما إذا كان ينبغي أن يظهر في صفحة هيئة التحرير العلنية بذلك الدور — وهو ما لا يحدث افتراضياً."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "لا يظهر هذا الدور في صفحة هيئة التحرير. فذلك يُضبط لكل دور في تبويب الأدوار؛ أما المحكّمون فتُدرَج أسماؤهم حسب التحكيمات المنجزة، لا حسب دورهم."

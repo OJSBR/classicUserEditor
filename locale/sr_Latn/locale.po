@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: sr_Latn\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Klasični uređivač korisnika"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Vraća menadžerima časopisa i administratorima direktno uređivanje korisnika časopisa — ime, prezime, e-adresa i uloge — kao u ranijim verzijama OJS-a, u dodatnoj kartici odeljka Korisnici i uloge. Upravljač pozivnica iz OJS 3.5 ostaje dostupan uz njega."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Uredi korisnike (klasično)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Direktno uređivanje korisnika koji su već registrovani u ovom časopisu: ime, prezime, e-adresa, uloge, kao i onemogućavanje, uklanjanje, slanje e-poruka i spajanje naloga. Da biste dodali novu osobu ili zatražili potvrdu, koristite upravljač pozivnica u kartici Korisnici."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Uloga"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Prikaži na stranici uredništva"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Izaberite uloge ove osobe u časopisu. U koloni desno odredite da li treba da se pojavi na javnoj stranici uredništva u toj ulozi — podrazumevano se ne pojavljuje."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Ova uloga se ne pojavljuje na stranici uredništva. To se podešava po ulozi u kartici Uloge; recenzenti se navode prema završenim recenzijama, a ne prema ulozi."

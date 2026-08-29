@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: gl\n"
+
+
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Editor clásico de persoas usuarias"
+
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Devólvelles ao persoal xestor da revista e á administración a edición directa das persoas usuarias —nome, apelidos, correo electrónico e roles— como nas versións anteriores de OJS, nunha lapela adicional de Usuarios e roles. O xestor de convites de OJS 3.5 segue dispoñible xunto a el."
+
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Editar persoas usuarias (clásico)"
+
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Edición directa das persoas usuarias xa rexistradas nesta revista: nome, apelidos, correo electrónico, roles, así como desactivar, eliminar, enviar correos e fusionar contas. Para engadir alguén novo ou pedirlle que confirme, use o xestor de convites da lapela Usuarios."
+
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Rol"
+
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Amosar na páxina do equipo editorial"
+
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Escolla os roles desta persoa na revista. Na columna da dereita, indique se debe aparecer na páxina pública do equipo editorial con ese rol — de forma predeterminada non aparece."
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Este rol non aparece na páxina do equipo editorial. Isto configúrase por rol na lapela Roles; as persoas revisoras lístanse polas revisións completadas, non polo seu rol."

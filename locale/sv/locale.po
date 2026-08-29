@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: sv\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Klassisk användarredigering"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Ger tidskriftsansvariga och administratörer tillbaka direkt redigering av tidskriftens användare – förnamn, efternamn, e-post och roller – som i tidigare OJS-versioner, i en extra flik under Användare och roller. OJS 3.5:s inbjudningshantering finns kvar vid sidan av."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Redigera användare (klassisk)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Direkt redigering av de användare som redan är registrerade i den här tidskriften: förnamn, efternamn, e-post, roller samt att inaktivera, ta bort, mejla och slå samman konton. För att lägga till någon ny eller be personen bekräfta, använd inbjudningshanteringen under fliken Användare."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Roll"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Visa på redaktionssidan"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Välj personens roller i tidskriften. I kolumnen till höger anger du om hen ska visas på den offentliga redaktionssidan i den rollen – som standard visas hen inte."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Den här rollen visas inte på redaktionssidan. Det ställs in per roll under fliken Roller; granskare listas utifrån sina slutförda granskningar, inte utifrån rollen."

@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: uk\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Класичний редактор користувачів"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Повертає менеджерам журналу та адміністраторам пряме редагування користувачів журналу — ім'я, прізвище, електронна пошта та ролі — як у попередніх версіях OJS, на додатковій вкладці розділу «Користувачі та ролі». Менеджер запрошень OJS 3.5 лишається доступним поруч."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Редагувати користувачів (класично)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Пряме редагування користувачів, уже зареєстрованих у цьому журналі: ім'я, прізвище, електронна пошта, ролі, а також вимкнення, видалення, надсилання листів і об'єднання облікових записів. Щоб додати нову людину або попросити її підтвердити, скористайтеся менеджером запрошень на вкладці «Користувачі»."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Роль"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Показувати на сторінці редакційної колегії"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Виберіть ролі цієї людини в журналі. У стовпці праворуч зазначте, чи має вона з'являтися на публічній сторінці редакційної колегії в цій ролі — типово ні."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Ця роль не з'являється на сторінці редакційної колегії. Це задається для кожної ролі на вкладці «Ролі»; рецензентів перелічують за завершеними рецензіями, а не за роллю."

@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: vi\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Trình sửa người dùng cổ điển"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Trả lại cho quản lý tạp chí và quản trị viên khả năng chỉnh sửa trực tiếp người dùng của tạp chí — tên, họ, email và vai trò — như ở các phiên bản OJS trước, trong một thẻ bổ sung của Người dùng & Vai trò. Trình quản lý lời mời của OJS 3.5 vẫn dùng được song song."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Sửa người dùng (cổ điển)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Chỉnh sửa trực tiếp những người dùng đã đăng ký trong tạp chí này: tên, họ, email, vai trò, cũng như vô hiệu hóa, xóa, gửi thư và hợp nhất tài khoản. Để thêm người mới hoặc yêu cầu họ xác nhận, hãy dùng trình quản lý lời mời ở thẻ Người dùng."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Vai trò"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Hiển thị trên trang Ban biên tập"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Chọn các vai trò của người này trong tạp chí. Ở cột bên phải, hãy chọn xem họ có xuất hiện trên trang Ban biên tập công khai với vai trò đó hay không — mặc định là không."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Vai trò này không xuất hiện trên trang Ban biên tập. Điều đó được thiết lập theo từng vai trò ở thẻ Vai trò; người phản biện được liệt kê theo các bản phản biện đã hoàn thành, không theo vai trò."

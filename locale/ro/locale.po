@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ro\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Editor clasic de utilizatori"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Le redă managerilor revistei și administratorilor editarea directă a utilizatorilor revistei — prenume, nume, e-mail și roluri — ca în versiunile anterioare de OJS, într-o filă suplimentară din Utilizatori și roluri. Managerul de invitații din OJS 3.5 rămâne disponibil în paralel."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Editare utilizatori (clasic)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Editare directă a utilizatorilor deja înregistrați în această revistă: prenume, nume, e-mail, roluri, precum și dezactivarea, eliminarea, trimiterea de e-mailuri și fuzionarea conturilor. Pentru a adăuga o persoană nouă sau a-i cere confirmarea, folosiți managerul de invitații din fila Utilizatori."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Rol"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Afișează pe pagina echipei editoriale"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Alegeți rolurile acestei persoane în revistă. În coloana din dreapta, stabiliți dacă trebuie să apară pe pagina publică a echipei editoriale cu acel rol — implicit nu apare."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Acest rol nu apare pe pagina echipei editoriale. Acest lucru se stabilește pe rol în fila Roluri; recenzenții sunt listați după recenziile finalizate, nu după rol."

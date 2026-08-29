@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ca\n"
+
+
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Editor d'usuaris clàssic"
+
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Retorna als gestors de la revista i als administradors l'edició directa dels usuaris —nom, cognoms, correu electrònic i rols— com a les versions anteriors de l'OJS, en una pestanya addicional d'Usuaris i rols. El gestor d'invitacions de l'OJS 3.5 continua disponible al costat."
+
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Edita els usuaris (clàssic)"
+
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Edició directa dels usuaris ja registrats en aquesta revista: nom, cognoms, correu electrònic, rols, així com desactivar, eliminar, enviar correus i fusionar comptes. Per afegir algú nou o demanar-li que confirmi, feu servir el gestor d'invitacions de la pestanya Usuaris."
+
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Rol"
+
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Mostra a la pàgina de l'equip editorial"
+
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Trieu els rols d'aquesta persona a la revista. A la columna de la dreta, indiqueu si ha d'aparèixer a la pàgina pública de l'equip editorial amb aquest rol: per defecte no hi apareix."
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Aquest rol no apareix a la pàgina de l'equip editorial. Això es configura per rol a la pestanya Rols; els revisors s'hi llisten per les revisions completades, no pel seu rol."

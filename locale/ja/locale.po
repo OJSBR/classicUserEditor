@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ja\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "クラシック ユーザー編集"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "ジャーナル管理者と管理者が、ジャーナルの利用者（名・姓・メールアドレス・役割）を直接編集できるようにします。以前の OJS と同様で、「ユーザーと役割」に追加されるタブから行います。OJS 3.5 の招待管理も引き続き併用できます。"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "ユーザーを編集（クラシック）"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "このジャーナルに登録済みの利用者を直接編集します: 名、姓、メールアドレス、役割のほか、アカウントの無効化・削除・メール送信・統合も行えます。新しい人を追加したり、本人に確認を依頼したりする場合は、「ユーザー」タブの招待管理を使ってください。"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "役割"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "編集委員ページに表示する"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "このジャーナルでのその人の役割を選びます。右の列では、その役割で公開の編集委員ページに掲載するかどうかを選びます。既定では掲載されません。"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "この役割は編集委員ページには表示されません。表示するかどうかは「役割」タブで役割ごとに設定します。査読者は役割ではなく、完了した査読に基づいて掲載されます。"

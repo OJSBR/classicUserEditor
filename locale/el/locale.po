@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: el\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Κλασικός επεξεργαστής χρηστών"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Επιστρέφει στους διαχειριστές του περιοδικού και στους διαχειριστές συστήματος την άμεση επεξεργασία των χρηστών του περιοδικού — όνομα, επώνυμο, email και ρόλοι — όπως στις παλαιότερες εκδόσεις του OJS, σε πρόσθετη καρτέλα στο Χρήστες και ρόλοι. Η διαχείριση προσκλήσεων του OJS 3.5 παραμένει διαθέσιμη παράλληλα."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Επεξεργασία χρηστών (κλασική)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Άμεση επεξεργασία των χρηστών που είναι ήδη εγγεγραμμένοι σε αυτό το περιοδικό: όνομα, επώνυμο, email, ρόλοι, καθώς και απενεργοποίηση, αφαίρεση, αποστολή email και συγχώνευση λογαριασμών. Για να προσθέσετε κάποιον νέο ή να του ζητήσετε επιβεβαίωση, χρησιμοποιήστε τη διαχείριση προσκλήσεων στην καρτέλα Χρήστες."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Ρόλος"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Εμφάνιση στη σελίδα της συντακτικής ομάδας"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Επιλέξτε τους ρόλους αυτού του ατόμου στο περιοδικό. Στη στήλη δεξιά, επιλέξτε αν θα εμφανίζεται στη δημόσια σελίδα της συντακτικής ομάδας με τον ρόλο αυτό — από προεπιλογή δεν εμφανίζεται."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Αυτός ο ρόλος δεν εμφανίζεται στη σελίδα της συντακτικής ομάδας. Αυτό ορίζεται ανά ρόλο στην καρτέλα Ρόλοι· οι αξιολογητές παρατίθενται με βάση τις ολοκληρωμένες αξιολογήσεις τους, όχι τον ρόλο τους."

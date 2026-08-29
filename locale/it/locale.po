@@ -9,6 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 
+
 msgid "plugins.generic.classicUserEditor.displayName"
 msgstr "Modifica classica degli utenti"
 

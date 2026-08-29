@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ka\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "მომხმარებელთა კლასიკური რედაქტორი"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "ჟურნალის მენეჯერებსა და ადმინისტრატორებს უბრუნებს ჟურნალის მომხმარებლების პირდაპირ რედაქტირებას — სახელი, გვარი, ელფოსტა და როლები — როგორც OJS-ის ადრინდელ ვერსიებში, განყოფილების „მომხმარებლები და როლები“ დამატებით ჩანართში. OJS 3.5-ის მოწვევების მმართველი მის გვერდით ხელმისაწვდომი რჩება."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "მომხმარებლების რედაქტირება (კლასიკური)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "ამ ჟურნალში უკვე რეგისტრირებული მომხმარებლების პირდაპირი რედაქტირება: სახელი, გვარი, ელფოსტა, როლები, ასევე ანგარიშების გამორთვა, წაშლა, წერილის გაგზავნა და გაერთიანება. ახალი ადამიანის დასამატებლად ან დადასტურების სათხოვნელად გამოიყენეთ მოწვევების მმართველი ჩანართში „მომხმარებლები“."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "როლი"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "ჩვენება სარედაქციო გუნდის გვერდზე"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "აირჩიეთ ამ პირის როლები ჟურნალში. მარჯვენა სვეტში მიუთითეთ, უნდა გამოჩნდეს თუ არა იგი ამ როლით საჯარო სარედაქციო გუნდის გვერდზე — ნაგულისხმევად არ ჩანს."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "ეს როლი სარედაქციო გუნდის გვერდზე არ ჩანს. ეს თითოეული როლისთვის განისაზღვრება ჩანართში „როლები“; რეცენზენტები ჩამოთვლილია დასრულებული რეცენზიების და არა როლის მიხედვით."

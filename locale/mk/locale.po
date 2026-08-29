@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: mk\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Класичен уредник на корисници"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Им ја враќа на менаџерите на списанието и на администраторите можноста директно да ги уредуваат корисниците на списанието — име, презиме, е-пошта и улоги — како во претходните верзии на OJS, во дополнителна картичка во „Корисници и улоги“. Управувачот со покани на OJS 3.5 останува достапен покрај него."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Уреди корисници (класично)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Директно уредување на корисниците што веќе се регистрирани во ова списание: име, презиме, е-пошта, улоги, како и оневозможување, отстранување, испраќање е-пошта и спојување сметки. За да додадете нова личност или да побарате потврда, користете го управувачот со покани во картичката Корисници."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Улога"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Прикажи на страницата на уредувачкиот тим"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Изберете ги улогите на оваа личност во списанието. Во колоната десно изберете дали треба да се појавува на јавната страница на уредувачкиот тим со таа улога — стандардно не се појавува."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Оваа улога не се појавува на страницата на уредувачкиот тим. Тоа се поставува по улога во картичката Улоги; рецензентите се наведуваат според завршените рецензии, а не според улогата."

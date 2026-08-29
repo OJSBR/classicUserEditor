@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ms\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Editor Pengguna Klasik"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Mengembalikan kepada pengurus jurnal dan pentadbir keupayaan menyunting pengguna jurnal secara terus — nama pertama, nama keluarga, e-mel dan peranan — seperti dalam versi OJS terdahulu, dalam tab tambahan pada Pengguna & Peranan. Pengurus jemputan OJS 3.5 kekal tersedia di sampingnya."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Sunting pengguna (klasik)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Penyuntingan terus pengguna yang sudah berdaftar dalam jurnal ini: nama pertama, nama keluarga, e-mel, peranan, serta menyahdayakan, membuang, menghantar e-mel dan menggabungkan akaun. Untuk menambah orang baharu atau meminta pengesahan, gunakan pengurus jemputan dalam tab Pengguna."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Peranan"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Papar pada halaman Sidang Editorial"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Pilih peranan orang ini dalam jurnal. Pada lajur di sebelah kanan, tentukan sama ada dia patut muncul pada halaman Sidang Editorial awam dengan peranan itu — secara lalai tidak."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Peranan ini tidak muncul pada halaman Sidang Editorial. Ia ditetapkan bagi setiap peranan dalam tab Peranan; penilai disenaraikan berdasarkan penilaian yang telah disiapkan, bukan peranan mereka."

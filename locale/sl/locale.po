@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: sl\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Klasični urejevalnik uporabnikov"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Upravnikom revije in skrbnikom vrne neposredno urejanje uporabnikov revije – ime, priimek, e-pošta in vloge – kot v prejšnjih različicah OJS, na dodatnem zavihku v razdelku Uporabniki in vloge. Upravitelj vabil iz OJS 3.5 ostaja na voljo poleg njega."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Uredi uporabnike (klasično)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Neposredno urejanje uporabnikov, ki so že registrirani v tej reviji: ime, priimek, e-pošta, vloge ter onemogočanje, odstranjevanje, pošiljanje e-pošte in združevanje računov. Za dodajanje nove osebe ali prošnjo za potrditev uporabite upravitelja vabil na zavihku Uporabniki."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Vloga"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Prikaži na strani uredništva"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Izberite vloge te osebe v reviji. V desnem stolpcu določite, ali naj se s to vlogo pojavi na javni strani uredništva – privzeto se ne pojavi."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Ta vloga se na strani uredništva ne prikaže. To se nastavi za vsako vlogo na zavihku Vloge; recenzenti so navedeni glede na opravljene recenzije, ne glede na vlogo."

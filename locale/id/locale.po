@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: id\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Editor Pengguna Klasik"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Mengembalikan kepada manajer jurnal dan administrator kemampuan menyunting pengguna jurnal secara langsung — nama depan, nama belakang, surel, dan peran — seperti pada versi OJS sebelumnya, dalam tab tambahan di Pengguna & Peran. Pengelola undangan OJS 3.5 tetap tersedia di sampingnya."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Sunting pengguna (klasik)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Penyuntingan langsung pengguna yang sudah terdaftar di jurnal ini: nama depan, nama belakang, surel, peran, serta menonaktifkan, menghapus, mengirim surel, dan menggabungkan akun. Untuk menambahkan orang baru atau meminta konfirmasi, gunakan pengelola undangan pada tab Pengguna."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Peran"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Tampilkan di halaman Tim Editorial"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Pilih peran orang ini di jurnal. Pada kolom di sebelah kanan, tentukan apakah dia harus muncul di halaman Tim Editorial publik dengan peran tersebut — secara bawaan tidak."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Peran ini tidak muncul di halaman Tim Editorial. Itu diatur per peran pada tab Peran; penelaah didaftar berdasarkan telaah yang telah diselesaikan, bukan berdasarkan perannya."

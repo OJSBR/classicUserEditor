@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: tr\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Klasik Kullanıcı Düzenleyici"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Dergi yöneticilerine ve yöneticilere derginin kullanıcılarını doğrudan düzenleme olanağını geri verir — ad, soyad, e-posta ve roller — önceki OJS sürümlerindeki gibi, Kullanıcılar ve Roller içindeki ek bir sekmede. OJS 3.5'in davet yöneticisi bunun yanında kullanılabilir olmayı sürdürür."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Kullanıcıları düzenle (klasik)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Bu dergide kayıtlı kullanıcıların doğrudan düzenlenmesi: ad, soyad, e-posta, roller ile hesapları devre dışı bırakma, kaldırma, e-posta gönderme ve birleştirme. Yeni birini eklemek veya kişiden onay istemek için Kullanıcılar sekmesindeki davet yöneticisini kullanın."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Rol"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Yayın Kurulu sayfasında göster"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Bu kişinin dergideki rollerini seçin. Sağdaki sütunda, o rolle herkese açık Yayın Kurulu sayfasında görünüp görünmeyeceğini belirleyin — varsayılan olarak görünmez."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Bu rol Yayın Kurulu sayfasında görünmez. Bu, Roller sekmesinde her rol için ayarlanır; hakemler rollerine göre değil, tamamladıkları değerlendirmelere göre listelenir."

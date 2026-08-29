@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: hu\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Klasszikus felhasználószerkesztő"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Visszaadja a folyóirat-menedzsereknek és adminisztrátoroknak a folyóirat felhasználóinak közvetlen szerkesztését – keresztnév, vezetéknév, e-mail és szerepkörök –, mint a korábbi OJS-verziókban, a Felhasználók és szerepkörök egy külön lapján. Az OJS 3.5 meghívókezelője emellett továbbra is elérhető marad."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Felhasználók szerkesztése (klasszikus)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Az ebben a folyóiratban már regisztrált felhasználók közvetlen szerkesztése: keresztnév, vezetéknév, e-mail, szerepkörök, valamint a fiókok letiltása, eltávolítása, e-mail küldése és összevonása. Új személy hozzáadásához vagy megerősítés kéréséhez használja a Felhasználók lap meghívókezelőjét."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Szerepkör"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Megjelenítés a szerkesztőség oldalán"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Válassza ki a személy szerepköreit a folyóiratban. A jobb oldali oszlopban adja meg, hogy ebben a szerepkörben megjelenjen-e a nyilvános szerkesztőségi oldalon – alapértelmezés szerint nem jelenik meg."
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Ez a szerepkör nem jelenik meg a szerkesztőség oldalán. Ezt szerepkörönként a Szerepkörök lapon lehet beállítani; a bírálók az elvégzett bírálataik, nem a szerepkörük alapján szerepelnek."

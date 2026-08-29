@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: hy\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "Օգտվողների դասական խմբագիր"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "Ամսագրի կառավարիչներին և ադմինիստրատորներին վերադարձնում է ամսագրի օգտվողների ուղիղ խմբագրումը՝ անուն, ազգանուն, էլ. փոստ և դերեր, ինչպես OJS-ի նախորդ տարբերակներում՝ «Օգտվողներ և դերեր» բաժնի լրացուցիչ ներդիրում։ OJS 3.5-ի հրավերների կառավարիչը մնում է հասանելի դրա կողքին։"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "Խմբագրել օգտվողներին (դասական)"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "Այս ամսագրում արդեն գրանցված օգտվողների ուղիղ խմբագրում՝ անուն, ազգանուն, էլ. փոստ, դերեր, ինչպես նաև հաշիվների անջատում, հեռացում, նամակ ուղարկում և միավորում։ Նոր անձ ավելացնելու կամ հաստատում խնդրելու համար օգտագործեք «Օգտվողներ» ներդիրի հրավերների կառավարիչը։"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "Դեր"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "Ցուցադրել խմբագրական կազմի էջում"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "Ընտրեք այս անձի դերերը ամսագրում։ Աջ սյունակում նշեք՝ արդյոք նա պետք է հայտնվի հանրային խմբագրական կազմի էջում այդ դերով. կանխադրված՝ ոչ։"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "Այս դերը չի հայտնվում խմբագրական կազմի էջում։ Դա սահմանվում է յուրաքանչյուր դերի համար «Դերեր» ներդիրում. գրախոսները նշվում են ըստ ավարտված գրախոսությունների, ոչ թե ըստ դերի։"

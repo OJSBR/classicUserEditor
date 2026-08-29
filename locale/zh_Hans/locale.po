@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: zh_Hans\n"
+
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.displayName"
+msgstr "经典用户编辑器"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.description"
+msgstr "让期刊管理员和站点管理员重新能够直接编辑期刊用户——名、姓、电子邮箱和角色——与早期 OJS 版本一致，入口是“用户与角色”中新增的选项卡。OJS 3.5 的邀请管理仍可并行使用。"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab"
+msgstr "编辑用户（经典）"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.tab.description"
+msgstr "直接编辑本期刊中已注册的用户：名、姓、电子邮箱、角色，以及停用、移除、发邮件和合并账号。若要添加新成员或请对方确认，请使用“用户”选项卡中的邀请管理。"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.role"
+msgstr "角色"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.column.masthead"
+msgstr "在编辑团队页面显示"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.hint"
+msgstr "选择此人在本期刊中的角色。在右侧列中选择是否以该角色显示在公开的编辑团队页面上——默认不显示。"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible"
+msgstr "—"
+
+#, fuzzy
+msgid "plugins.generic.classicUserEditor.roles.notEligible.description"
+msgstr "该角色不会出现在编辑团队页面。是否显示在“角色”选项卡中按角色设置；审稿人按已完成的审稿列出，而非按角色。"
