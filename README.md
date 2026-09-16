@@ -1,24 +1,28 @@
-# Classic User Editor — OJS plugin
+# Classic User Editor — OJS and OMP plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.5-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-1.0.1.0-blue)](version.xml)
+[![OMP](https://img.shields.io/badge/OMP-3.5-brightgreen)](https://pkp.sfu.ca/omp/)
+[![Version](https://img.shields.io/badge/version-1.0.2.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/classicUserEditor/releases/download/1.0.1.0/classicUserEditor-1.0.1.0.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS / OMP 3.5](https://github.com/OJSBR/classicUserEditor/releases/download/1.0.2.0/classicUserEditor-1.0.2.0.tar.gz) — or browse all [Releases](../../releases).
 
-A generic plugin for **Open Journal Systems (OJS)** that gives journal managers and
-administrators **direct editing of users** again — given name, family name, email and roles —
-as in earlier OJS versions, **without patching OJS core**. The OJS 3.5 invitation manager keeps
-working alongside it.
+A generic plugin for **Open Journal Systems (OJS)** and **Open Monograph Press (OMP)** that
+gives managers and administrators **direct editing of users** again — given name, family name,
+email and roles — as in earlier versions, **without patching the core**. The 3.5 invitation
+manager keeps working alongside it.
 
 > **Developed and maintained by [OJSBR](https://ojsbr.com).** See the
 > [Credits & authorship](#credits--authorship) section below.
 
 ## Compatibility & branches
 
-| OJS version | Branch | Plugin release |
+| Application | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.1.0 |
+| OJS 3.5.x and OMP 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.2.0 |
+
+> Since 1.0.2.0 the same package serves OJS and OMP. The former `classicUserEditorOmp`
+> repository is archived; its releases stay available there.
 
 ## The problem
 
@@ -155,7 +159,7 @@ is not submitted to the PKP plugin gallery**; it is distributed from this reposi
   OJS 3.3 — and that the classic form opens with the roles in a single table, with the Editorial
   Team checkbox disabled for a role that is not assigned, and with autofill blocked. Nothing is
   saved: the form is opened and closed. Each check fails with the part it covers removed.
-- Verified on OJS 3.5.0.3.
+- Verified on OJS 3.5.0.3 and OMP 3.5.0.3, each with the whole suite.
 
 Tests are kept in the repository and are not part of the release package.
 
@@ -183,18 +187,22 @@ Distributed under the **GNU GPL v3**. See [`LICENSE`](LICENSE) and `docs/COPYING
 
 ## 🇧🇷 Português
 
-Plugin genérico para o **Open Journal Systems (OJS)** que devolve ao gerente e ao administrador a
-**edição direta de usuários** — nome, sobrenome, e-mail e papéis — como nas versões anteriores do
-OJS, **sem alterar o núcleo**. O gerenciador de convites do 3.5 continua funcionando em paralelo.
+Plugin genérico para o **Open Journal Systems (OJS)** e o **Open Monograph Press (OMP)** que
+devolve ao gerente e ao administrador a **edição direta de usuários** — nome, sobrenome, e-mail e
+papéis — como nas versões anteriores, **sem alterar o núcleo**. O gerenciador de convites do 3.5
+continua funcionando em paralelo.
 
 > **Desenvolvido e mantido pela [OJSBR](https://ojsbr.com).** Veja a seção
 > [Créditos e autoria](#créditos-e-autoria) abaixo.
 
 ### Compatibilidade e branches
 
-| Versão do OJS | Branch | Release do plugin |
-|---------------|--------|-------------------|
-| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.0.2 |
+| Aplicação | Branch | Release do plugin |
+|-----------|--------|-------------------|
+| OJS 3.5.x e OMP 3.5.x | `stable-3_5_0` *(padrão)* | 1.0.2.0 |
+
+> A partir da 1.0.2.0 o mesmo pacote serve OJS e OMP. O repositório `classicUserEditorOmp`
+> está arquivado; as releases dele continuam disponíveis lá.
 
 ### O problema
 
@@ -312,7 +320,7 @@ liga o plugin e lista os usuários na aba do plugin; com uma conta comum da revi
 (`editableUserId`, `editableUserName`), confere ainda que a coluna Papéis mostra designação sem data
 de início — como ficam todas numa base migrada do OJS 3.3 — e que o formulário clássico abre com os
 papéis numa tabela só, com o checkbox da Equipe Editorial desabilitado para papel não atribuído e com
-o autopreenchimento bloqueado; nada é salvo. Verificado no OJS 3.5.0.3.
+o autopreenchimento bloqueado; nada é salvo. Verificado no OJS 3.5.0.3 e no OMP 3.5.0.3, com a suíte inteira em cada um.
 
 Os testes ficam no repositório e não fazem parte do pacote da release.
 
