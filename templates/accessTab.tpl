@@ -9,7 +9,7 @@
  *
  * @uses $classicUserEditorGridUrl string URL of the classic grid component
  *}
-<tab id="classicUserEditor" label="{translate key="plugins.generic.classicUserEditor.tab"|escape}">
+<tab id="classicUserEditor" label="{"plugins.generic.classicUserEditor.tab"|translate|escape}">
 	<p class="classicUserEditor__description">
 		{translate key="plugins.generic.classicUserEditor.tab.description"}
 	</p>

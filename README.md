@@ -1,10 +1,10 @@
 # Classic User Editor — OJS plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.5-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-1.0.0.3-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-1.0.1.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/classicUserEditor/releases/download/1.0.0.3/classicUserEditor-1.0.0.3.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/classicUserEditor/releases/download/1.0.1.0/classicUserEditor-1.0.1.0.tar.gz) — or browse all [Releases](../../releases).
 
 A generic plugin for **Open Journal Systems (OJS)** that gives journal managers and
 administrators **direct editing of users** again — given name, family name, email and roles —
@@ -18,7 +18,7 @@ working alongside it.
 
 | OJS version | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.0.3 |
+| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.1.0 |
 
 ## The problem
 
@@ -121,10 +121,54 @@ from editing an account they have no authority over.
   public page uses (`UserGroup::masthead(true)->excludeRoles([REVIEWER])`).
 - No core file is patched and nothing is stored by the plugin.
 
+## A documented exception to the OJSBR plugin standard
+
+Our own standard asks plugins to leave the core interface alone. This plugin's
+`js/userForm.js` does rearrange the core user form: it moves the two role checkbox lists into a
+single table (the checkboxes themselves are moved, never rebuilt, so the form submits exactly
+what OJS expects) and it turns off browser autofill on the fields, because the form edits
+someone else's account and Chrome fills it with the logged-in person's data — a value that is
+not a URL blocks saving. OJS 3.5 offers no hook inside that form.
+
+The exception is deliberate and bounded: the script only touches `#userDetailsForm`, it creates
+no field, and any error leaves the core form untouched and usable. **Because of it, this plugin
+is not submitted to the PKP plugin gallery**; it is distributed from this repository.
+
+## Tests
+
+- **PHPUnit** (`tests/*Test.php`, on `PKP\tests\PKPTestCase`): the class against the installed
+  PKP, the plugin found by PKP's plugin registry, the grid being the core one with the plugin's
+  Roles column, only the plugin's component answered by the `LoadComponentHandler` hook, the
+  roles offered for the Editorial Team page (reviewers left out), what the form script may do
+  (no field created, the core form left usable on error), the tab markup, and the 38
+  translations. From the OJS root:
+
+  ```bash
+  lib/pkp/lib/vendor/bin/phpunit --configuration lib/pkp/tests/phpunit.xml --no-coverage "$PWD/plugins/generic/classicUserEditor/tests"
+  ```
+
+- **Cypress** (`cypress/tests/functional/ClassicUserEditor.cy.js`, run by
+  [pkp-github-actions](https://github.com/pkp/pkp-github-actions) on every push): enables the
+  plugin and lists the users of the journal in the plugin's tab. Given an ordinary account of
+  the journal (`editableUserId`, `editableUserName`), it also checks that the Roles column shows
+  an assignment with no start date — the state of every assignment in a database upgraded from
+  OJS 3.3 — and that the classic form opens with the roles in a single table, with the Editorial
+  Team checkbox disabled for a role that is not assigned, and with autofill blocked. Nothing is
+  saved: the form is opened and closed. Each check fails with the part it covers removed.
+- Verified on OJS 3.5.0.3.
+
+Tests are kept in the repository and are not part of the release package.
+
 ## Credits & authorship
 
 - **Developed and maintained by** [OJSBR](https://ojsbr.com) — original plugin.
 - Distributed under the **GNU GPL v3**.
+
+## AI use
+
+Generative AI (Claude, by Anthropic) was used to write and run tests, improve the code and bring
+it in line with PKP standards. Every change is reviewed and tested by OJSBR, which is responsible
+for the published releases.
 
 ## Contributing
 
@@ -238,13 +282,50 @@ Cada ação continua validada pelo próprio núcleo (`Validation::getAdministrat
 
 ### Idiomas
 
-Interface do plugin traduzida em **português (Brasil), inglês, espanhol, francês, italiano e
-alemão**.
+Nome, descrição e textos do plugin nos **38 idiomas** do conjunto padrão da PKP (revisados em
+inglês, português, espanhol, catalão, galego, francês, italiano, alemão e holandês; os demais ficam
+marcados para revisão).
+
+### Uma exceção documentada ao padrão de plugins da OJSBR
+
+Nosso padrão pede que o plugin não mexa na interface do núcleo. O `js/userForm.js` deste plugin
+mexe: junta as duas listas de checkboxes de papéis numa tabela só (os checkboxes são movidos, nunca
+recriados, então o formulário envia exatamente o que o OJS espera) e desliga o autopreenchimento do
+navegador nos campos, porque o formulário edita a conta de outra pessoa e o Chrome a preenche com os
+dados de quem está logado — e um valor que não é URL impede salvar. O OJS 3.5 não oferece hook
+dentro desse formulário.
+
+A exceção é deliberada e limitada: o script só toca no `#userDetailsForm`, não cria campo nenhum, e
+qualquer erro deixa o formulário do núcleo intacto e utilizável. **Por causa dela, este plugin não é
+submetido à galeria de plugins da PKP**; ele é distribuído por este repositório.
+
+### Testes
+
+PHPUnit em `tests/` (sobre `PKP\tests\PKPTestCase`) e Cypress em `cypress/tests/functional/`
+(rodado pelo [pkp-github-actions](https://github.com/pkp/pkp-github-actions) a cada push), com o
+comando da seção em inglês. A suíte cobre a classe contra o PKP instalado, o plugin encontrado pelo
+registro de plugins, a grade sendo a do núcleo com a coluna Papéis do plugin, só o componente do
+plugin respondido no hook `LoadComponentHandler`, os papéis oferecidos para a página Equipe
+Editorial (sem os de avaliador), o que o script do formulário pode fazer (não cria campo e deixa o
+formulário do núcleo utilizável em caso de erro), a marcação da aba e as 38 traduções. O Cypress
+liga o plugin e lista os usuários na aba do plugin; com uma conta comum da revista
+(`editableUserId`, `editableUserName`), confere ainda que a coluna Papéis mostra designação sem data
+de início — como ficam todas numa base migrada do OJS 3.3 — e que o formulário clássico abre com os
+papéis numa tabela só, com o checkbox da Equipe Editorial desabilitado para papel não atribuído e com
+o autopreenchimento bloqueado; nada é salvo. Verificado no OJS 3.5.0.3.
+
+Os testes ficam no repositório e não fazem parte do pacote da release.
 
 ### Créditos e autoria
 
 - **Desenvolvido e mantido pela** [OJSBR](https://ojsbr.com) — plugin autoral.
 - Distribuído sob a **GNU GPL v3**.
+
+### Uso de IA
+
+Foi usada IA generativa (Claude, da Anthropic) para escrever e rodar testes, melhorar o código e
+alinhá-lo aos padrões da PKP. Toda mudança é revisada e testada pela OJSBR, que responde pelas
+releases publicadas.
 
 ### Licença
 
