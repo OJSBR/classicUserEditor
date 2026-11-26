@@ -2,10 +2,10 @@
 
 [![OJS](https://img.shields.io/badge/OJS-3.5-brightgreen)](https://pkp.sfu.ca/ojs/)
 [![OMP](https://img.shields.io/badge/OMP-3.5-brightgreen)](https://pkp.sfu.ca/omp/)
-[![Version](https://img.shields.io/badge/version-1.0.2.0-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-5.0.0.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS / OMP 3.5](https://github.com/OJSBR/classicUserEditor/releases/download/1.0.2.0/classicUserEditor-1.0.2.0.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS / OMP 3.5](https://github.com/OJSBR/classicUserEditor/releases/download/5.0.0.0/classicUserEditor-5.0.0.0.tar.gz) — or browse all [Releases](../../releases).
 
 A generic plugin for **Open Journal Systems (OJS)** and **Open Monograph Press (OMP)** that
 gives managers and administrators **direct editing of users** again — given name, family name,
@@ -19,7 +19,7 @@ manager keeps working alongside it.
 
 | Application | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.5.x and OMP 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.2.0 |
+| OJS 3.5.x and OMP 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 5.0.0.0 |
 
 > Since 1.0.2.0 the same package serves OJS and OMP. The former `classicUserEditorOmp`
 > repository is archived; its releases stay available there.
@@ -199,7 +199,7 @@ continua funcionando em paralelo.
 
 | Aplicação | Branch | Release do plugin |
 |-----------|--------|-------------------|
-| OJS 3.5.x e OMP 3.5.x | `stable-3_5_0` *(padrão)* | 1.0.2.0 |
+| OJS 3.5.x e OMP 3.5.x | `stable-3_5_0` *(padrão)* | 5.0.0.0 |
 
 > A partir da 1.0.2.0 o mesmo pacote serve OJS e OMP. O repositório `classicUserEditorOmp`
 > está arquivado; as releases dele continuam disponíveis lá.
